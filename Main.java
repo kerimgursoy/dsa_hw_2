@@ -16,7 +16,7 @@ public class Main{
             narray[i] = scanner.nextInt();
         }
 
-        Insertion.sort_descrtl(narray);
+        Merge.sort_desc(narray);
 
         for(int i: narray){
             System.out.println(i);
